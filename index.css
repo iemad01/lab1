@@ -1,28 +1,44 @@
-body{
+.jumbotron {
+    position: relative;
+    background-color: #343a40;
+    background: url("img/books-library-students-12064.jpg") no-repeat center center;
+    background-attachment: fixed;
+    max-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+.navbar{
+      margin-bottom: 0px;
+  }
+
+/*Old css before bootstrap*/
+
+/*body{
     background-color: lightgray;
     text-align: center;
-}
+}*/
 
-.topnavbar{
+/*.topnavbar{
     background-color: darkgrey;
     padding: 15px 0px 15px 0px;
     margin: -10px -10px 0px -10px;
     font-family: Verdana;
     display: flex;
     justify-content: space-evenly;
-}
+}*/
 
-nav a{
+/*nav a{
     text-decoration: none;
     color: white;
     padding: 15px 15px;
-}
+}*/
 
-nav a:hover{
-    background-color: black;
-}
-
-img:hover{
+/* img:hover{
     transition: transform .2s;
     transform: scale(1.2);
 }
@@ -46,4 +62,4 @@ footer{
     border-radius: 4px;
     cursor: pointer;
     margin: 15px 0px 15px 0px;
-}
+} */
