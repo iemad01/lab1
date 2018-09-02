@@ -7,7 +7,10 @@ The first index page is for selected book. It shows the TITLE, IMAGE, ISBN, SUMM
 
 Index.html page is the main HTML page for the website. Index.css is an external css page for Index.html.
 
----CHANGES--- Austin
-8/31/2018 - Started adding bootstrap to the website. Used a jumbotron for homepage to draw attention. Old HTML and CSS is still in the files.
+---TODO---
+Austin - Add section under video for explanation of website (divided into grid columns). Use fontawesome library for icons.
 
-TODO - Find background video, finish site header, add section under jumbotron for explanation of website (divided into grid columns). Use fontawesome library for icons.
+---CHANGES---
+8/31/2018: Austin - Started adding bootstrap to the website. Used a jumbotron for homepage to draw attention. Old HTML and CSS is still in the files.
+
+9/2/2018: Austin - Made background a video, can change if we find a better one, background should default to an image on mobile. Made template header, has buttons for links to different parts of the website.
