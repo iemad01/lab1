@@ -2,14 +2,90 @@
 <html>
 <head>
 	<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>
-	Books Page
-</title>
-<link rel="stylesheet" href="index.css">
+	<title>
+			Books Page
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Bootstrap css cdn - Taken from bootstrap website-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
 </head>
 	
 	<body>
+<!--Navigation bar at top of page-->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">Book Jungle</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Page 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Page 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Page 3</a></li>
+			</ul>
+			</div>
+		  <a class="btn btn-primary" href="#">Sign In</a>
+		</div>
+	  </nav>
+
+		<header>
+			<div class="overlay"></div>
+			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+				<source src="img/videoInsideALibrary.mp4" type="video/mp4">
+			</video>
+			<div class="container h-100">
+				<div class="d-flex text-center h-100">
+					<div class="my-auto w-100 text-white">
+						<h1 class="display-4">Welcome to the Book Jungle!</h1><br>
+						<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+							<form>
+							<div class="form-row">
+								<div class="col-12 col-md-9 mb-2 mb-md-0">
+								<input type="email" class="form-control form-control-lg" placeholder="Search ISBN, Title, Keyword">
+								</div>
+								<div class="col-12 col-md-3">
+								<button type="submit" class="btn btn-block btn-lg btn-primary">Search!</button>
+								</div>
+							</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- jumbotron for page showcase --
+			Had to change for background video
+
+	  <header class="jumbotron jumbotron-fluid text-white text-center">
+			<div class="container">
+			  <div class="row">
+				<div class="col-xl-9 mx-auto">
+				  <h1 class="mb-5">Welcome To The Book Jungle!</h1>
+				</div>
+				<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+				  <form>
+					<div class="form-row">
+					  <div class="col-12 col-md-9 mb-2 mb-md-0">
+						<input type="email" class="form-control form-control-lg" placeholder="Search ISBN, Title, Keyword">
+					  </div>
+					  <div class="col-12 col-md-3">
+						<button type="submit" class="btn btn-block btn-lg btn-primary">Search!</button>
+					  </div>
+					</div>
+				  </form>
+				</div>
+			  </div>
+			</div>
+			</header>-->
+			
+			
+
+		<!--HTML before boostrap-->
+		<div class="oldhtml"> <!--To make background white so video doesnt show on whole page-->
 		<section>
 			<nav class= "topnavbar">
 				<a href="#" class = "active">Home</a>
@@ -19,7 +95,7 @@
 				<a href="#">Request A Book</a>
 			</nav>
 		</section>
-		<section>
+		<!--<section>
 			<header>
 
 				<h4>Read Discover Repeat</h4>
@@ -30,7 +106,7 @@
 				</form>
 				<br>
 			</header>
-		</section>
+		</section>-->
 
 		<div class = "book-page">
 			<section class = "book-image">
@@ -67,5 +143,11 @@
 		<footer>
 			&copy; All Right Reserve CS483
 		</footer>
+	</div>
+
+		<!---Bootstrap jquery, popper.js, bootstrap js - Taken from bootstrap website-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</body>
 </html>

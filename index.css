@@ -1,28 +1,102 @@
-body{
+.navbar{
+      margin-bottom: 0px;
+  }
+
+/*for video background*/
+  header {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  /*To keep text and search bar above video*/
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /*Darkens the video slightly by using black background with 50% opacity*/
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  /*This should use a normal background image on mobile*/
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('img/books-library-students-12064.jpg') black no-repeat center center fixed;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+.oldhtml{
+  z-index: 10;
+  background-color: white;
+  text-align: center;
+}
+  /*End for video background*/
+
+  /*Jumbotron css, commented out unless we want to go back to jumbotron
+  .jumbotron {
+    position: relative;
+    background-color: #343a40;
+    background: url("img/books-library-students-12064.jpg") no-repeat center center;
+    background-attachment: fixed;
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 12rem;
+  }*/
+
+/*Old css before bootstrap*/
+
+
+/*body{
     background-color: lightgray;
     text-align: center;
-}
+}*/
 
-.topnavbar{
+/*.topnavbar{
     background-color: darkgrey;
     padding: 15px 0px 15px 0px;
     margin: -10px -10px 0px -10px;
     font-family: Verdana;
     display: flex;
     justify-content: space-evenly;
-}
+}*/
 
-nav a{
+/*nav a{
     text-decoration: none;
     color: white;
     padding: 15px 15px;
-}
+}*/
 
-nav a:hover{
-    background-color: black;
-}
-
-img:hover{
+/* img:hover{
     transition: transform .2s;
     transform: scale(1.2);
 }
@@ -46,4 +120,4 @@ footer{
     border-radius: 4px;
     cursor: pointer;
     margin: 15px 0px 15px 0px;
-}
+} */
