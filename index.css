@@ -41,6 +41,38 @@
     z-index: 1;
   }
 
+  /*Set padding for features columns*/
+  .features-columns{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .iconContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .features-columns-item{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /*Set size and padding of icons*/
+  .fa-book{
+    font-size: 100px;
+    padding-bottom: 30px
+  }
+
+  .fa-search{
+    font-size: 100px;
+    padding-bottom: 30px;
+  }
+
+  .fa-dollar-sign{
+    font-size: 100px;
+    padding-bottom: 30px;
+  }
+
   /*This should use a normal background image on mobile*/
   @media (pointer: coarse) and (hover: none) {
     header {
