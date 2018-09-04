@@ -15,4 +15,4 @@ Austin - Add something else under the three columns
 
 9/2/2018: Austin - Made background a video, can change if we find a better one, background should default to an image on mobile. Made template header, has buttons for links to different parts of the website.
 
-9/4/2018: Austin - Added three columns under header to explain what the site is for. Used icons from fontawesome.
+9/4/2018: Austin - Added three columns under header to explain what the site is for. Used icons from fontawesome. Added javascript to enlarge icons on mouseover and linked the external index.js file to the index.html
