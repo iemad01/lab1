@@ -1,0 +1,18 @@
+// Some Random books generated for testing purpose using JSON
+var books = [{
+		"title": "Eat Pray & Love",
+		"isbn": "001-00-00001",
+		"summary": "Some Random Summary We need to generate"
+	},
+	{
+		"title": "kissing Booth",
+		"isbn": "001-00-00002",
+		"summary": "Some Random Summary We need to generate"
+	},
+	{
+		"title": "JavaScript",
+		"isbn": "001-00-00003",
+		"summary": "Some Random Summary We need to generate"
+	}
+	]
+
