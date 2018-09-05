@@ -3,7 +3,7 @@ var bInfo = document.getElementById("bookInfo");
 btn.addEventListener("click", function(){
 	var bestSeller = new XMLHttpRequest();
 
-	bestSeller.open("GET", "https://raw.githubusercontent.com/iprabesh/lab1/iprabesh-patch-1/books.txt", true);
+	bestSeller.open("GET", "https://raw.githubusercontent.com/iprabesh/lab1/c99f505bc699b5569b87a4c8cdd8c38271f9a0bf/books.txt", true);
 	bestSeller.onload= function(){
 	var bookData = JSON.parse(bestSeller.responseText);
 	renderHTML(bookData);
@@ -25,14 +25,3 @@ function renderHTML(bdata){
 	}
 	bInfo.insertAdjacentHTML('beforeend', htmlString);
 }
-
-$(".subscribe-me").subscribeBetter({
-	trigger: "atendpage", 
-	animation: "fade",
-	delay: 0,
-	showOnce: true,
-	autoClose: false,
-	scrollableModal: false
-  });
-
-
