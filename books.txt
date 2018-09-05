@@ -14,13 +14,13 @@
 		"isbn": "001-00-00003",
 		"summary": "Some Random Summary We need to generate"
 	},
-	,
+	
 	{
 		"title": "Python",
 		"isbn": "001-00-00004",
 		"summary": "Some Random Summary We need to generate"
 	},
-	,
+	
 	{
 		"title": "Life Style of Angelina Jolie",
 		"isbn": "001-00-00005",
