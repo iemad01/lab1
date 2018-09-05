@@ -86,7 +86,7 @@
 .oldhtml{
   z-index: 10;
   background-color: white;
-  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
   /*End for video background*/
 
@@ -100,9 +100,6 @@
   letter-spacing: 3px;
 }
 
-.best-seller-container{
-  text-align: left;
-}
 
 .hide-me{
   display: none;

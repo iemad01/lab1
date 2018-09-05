@@ -14,6 +14,7 @@
 </head>
 	
 	<body>
+
 <!--Navigation bar at top of page-->
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		<div class="container">
@@ -32,6 +33,9 @@
 		  <a class="btn btn-primary" href="#">Sign In</a>
 		</div>
 	  </nav>
+		<!-- Subscribe Me Modal-->
+	<!-- Modal -->
+
 
 		<!--Video background and search box-->
 		<header>
@@ -59,7 +63,7 @@
 				</div>
 			</div>
 		</header>
-
+		
 		<!--3 columns under header-->
 		<section class="features-columns bg-light text-center">
       <div class="container-fluid iconContainer"> <!--Fluid container to span full width-->
@@ -137,7 +141,34 @@
 
 		<!--HTML before boostrap-->
 		<div class="oldhtml"> <!--To make background white so video doesnt show on whole page-->
-		
+		<hr>
+
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+		Subscribe Our NewsLetter!
+	</button>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Subscribe With Email!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Not Now</button>
+					<button type="button" class="btn btn-primary">Subscribe</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 		<!--<section>
 			<header>
 				<form>
@@ -151,10 +182,11 @@
 
 
 		<!-- For the Best Seller Part -->
-		<div class = "best-seller-cointainer">
-			<button id = "btn"> View All Top Seller </button>
-			<div id = "bookInfo">
-				
+		<div class="card-body">
+			<button id = "btn" class = "btn btn-warning"> View All Top Seller </button>
+			<div class = "row" ></div>
+				<div id = "bookInfo" class="col-sm" >
+				</div>
 			</div>
 		</div>
 		
@@ -164,7 +196,9 @@
 			&copy; All Right Reserve CS483
 		</footer>
 	</div>
-
+		<script type="text/jacascript">
+			
+		</script>
 		<script src="index.js"></script>
 		<script type="text/javascript" src = "bestseller.js"></script>
 		<!---Bootstrap jquery, popper.js, bootstrap js - Taken from bootstrap website-->

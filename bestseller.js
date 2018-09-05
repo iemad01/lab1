@@ -17,13 +17,22 @@ btn.addEventListener("click", function(){
 
 function renderHTML(bdata){
 	var htmlString = "";
+	var purchaseButton = "Purchase";
 
 	for(i = 0; i <bdata.length; i++){
-		htmlString += "<p>" + bdata[i].title + "</p>"
+		htmlString += "<p> Title: " + bdata[i].title + "<br>" + "Isbn: " +bdata[i].isbn +  "<button>" + purchaseButton + "</button>" +"</p>"
 		
 	}
 	bInfo.insertAdjacentHTML('beforeend', htmlString);
 }
 
+$(".subscribe-me").subscribeBetter({
+	trigger: "atendpage", 
+	animation: "fade",
+	delay: 0,
+	showOnce: true,
+	autoClose: false,
+	scrollableModal: false
+  });
 
 
