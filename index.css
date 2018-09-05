@@ -72,7 +72,7 @@
     font-size: 100px;
     padding-bottom: 30px;
   }
-
+  
   /*This should use a normal background image on mobile*/
   @media (pointer: coarse) and (hover: none) {
     header {
