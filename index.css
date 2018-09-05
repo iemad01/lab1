@@ -59,17 +59,17 @@
 
   /*Set size and padding of icons*/
   .fa-book{
-    font-size: 100px;
-    padding-bottom: 30px
+    font-size: 70px;
+    padding-bottom: 30px;
   }
 
   .fa-search{
-    font-size: 100px;
+    font-size: 70px;
     padding-bottom: 30px;
   }
 
   .fa-dollar-sign{
-    font-size: 100px;
+    font-size: 70px;
     padding-bottom: 30px;
   }
 
@@ -89,6 +89,26 @@
   text-align: center;
 }
   /*End for video background*/
+
+.para{
+  font-size: 12px;
+  
+}
+
+.heading-jumbo{
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+.best-seller-container{
+  text-align: left;
+}
+
+.hide-me{
+  display: none;
+}
+
+
 
   /*Jumbotron css, commented out unless we want to go back to jumbotron
   .jumbotron {

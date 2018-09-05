@@ -24,9 +24,9 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Page 1</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Page 2</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Page 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Genre</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Best Seller</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Discover</a></li>
 			</ul>
 			</div>
 		  <a class="btn btn-primary" href="#">Sign In</a>
@@ -42,7 +42,7 @@
 			<div class="container h-100">
 				<div class="d-flex text-center h-100">
 					<div class="my-auto w-100 text-white">
-						<h1 class="display-4">Welcome to the Book Jungle!</h1><br>
+						<h1 class="display-4 heading-jumbo">Welcome to the Book Jungle!</h1><br>
 						<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
 							<form>
 							<div class="form-row">
@@ -71,8 +71,8 @@
 								onmouseover="bigImg(this)" onmouseout="normalImg(this)">
 								</i>
 							</div>
-							<h3>One Stop Book Supply Shop</h3>
-              <p class="lead mb-0">Our goal is to provide you with a "one stop shop" for all your book buying and 
+							<h5>BUY</h5>
+              <p class="lead mb-0 para">Our goal is to provide you with a "one stop shop" for all your book buying and 
 								selling needs. We will find the right book for you, and take your old books off your hands, guaranteed!
 							</p>
             </div>
@@ -84,8 +84,8 @@
 										onmouseover="bigImg(this)" onmouseout="normalImg(this)">
 								</i>
               </div>
-              <h3>Search Using ISBN, Title, or Keyword</h3>
-              <p class="lead mb-0">There are millions of books you could be missing out on. Search
+              <h5>SEARCH</h5>
+              <p class="lead mb-0 para">There are millions of books you could be missing out on. Search
 								our entire database using ISBN, title, or keyword and find the book you've been missing out on all along!
 							</p>
             </div>
@@ -97,8 +97,8 @@
 								onmouseover="bigImg(this)" onmouseout="normalImg(this)">
 							</i>
               </div>
-              <h3>Buy or Sell Books From the Comfort of Your Home</h3>
-              <p class="lead mb-0">Find the perfect book but not sure where to get it? No problem, 
+              <h5>TRADE</h5>
+              <p class="lead mb-0 para">Find the perfect book but not sure where to get it? No problem, 
 								 you can buy it right from our website! We will also buy your old, or new, books you no 
 								 longer want.
 							</p>
@@ -137,19 +137,9 @@
 
 		<!--HTML before boostrap-->
 		<div class="oldhtml"> <!--To make background white so video doesnt show on whole page-->
-		<section>
-			<nav class= "topnavbar">
-				<a href="#" class = "active">Home</a>
-				<a href="#">Genre</a>
-				<a href="#">Best Seller</a>
-				<a href="#">Discover</a>
-				<a href="#">Request A Book</a>
-			</nav>
-		</section>
+		
 		<!--<section>
 			<header>
-
-				<h4>Read Discover Repeat</h4>
 				<form>
 				<strong>Always Stay up-to-date by signing up with the news letter!</strong>
 				<br>Email: <input type="text">
@@ -159,44 +149,24 @@
 			</header>
 		</section>-->
 
-		<div class = "book-page">
-			<section class = "book-image">
-				<img src="img/img1.jpg" alt="Computer Science">
-			</section>
-			<section class= "book-description">
-				<div id = "book-title">
-				<p><strong>Title: </strong>	Computer Science Principles</p>
-				</div>
-				<div id = "book-summary">
-					<p><strong>ISBN: </strong> 001-00-991020</p>
-				</div>
-				<div id = "book-summary">
-					<p>
-						<strong>Summary:</strong> Summary of a book
-					</p>
-				</div>
-				<div id = "book-tags">
-					<p>
-						<strong>TAGS:</strong> <a href="#">PROGRAMMING</a> | <a href="#">COMPUTER</a>
-					</p>
-				</div>
-			</section>
+
+		<!-- For the Best Seller Part -->
+		<div class = "best-seller-cointainer">
+			<button id = "btn"> View All Top Seller </button>
+			<div id = "bookInfo">
+				
+			</div>
 		</div>
-		<div id = "book-reviews">
-			<strong>Reviews: </strong>
-			<ul>
-				<li>Great Book</li>
-				<li>Writer know whats up!</li>
-				<li>Great Book</li>
-				<li>Writer know whats up!</li>
-			</ul>
-		</div>
+		
+
+
 		<footer>
 			&copy; All Right Reserve CS483
 		</footer>
 	</div>
 
 		<script src="index.js"></script>
+		<script type="text/javascript" src = "bestseller.js"></script>
 		<!---Bootstrap jquery, popper.js, bootstrap js - Taken from bootstrap website-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
