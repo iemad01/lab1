@@ -32,6 +32,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("book-reviews").innerHTML = "EXPIRED";
   }
+
 }, 1000);
 
 //Enlarge icon on mouseover then return to normal on mouseout
@@ -41,3 +42,6 @@ function bigImg(x){
 function normalImg(x){
     x.style.fontSize = "100px";
 }
+=======
+}, 1000);
+
