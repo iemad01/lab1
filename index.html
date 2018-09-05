@@ -6,6 +6,8 @@
 			Books Page
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<!--Bootstrap css cdn - Taken from bootstrap website-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="index.css">
@@ -31,6 +33,7 @@
 		</div>
 	  </nav>
 
+		<!--Video background and search box-->
 		<header>
 			<div class="overlay"></div>
 			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -56,6 +59,54 @@
 				</div>
 			</div>
 		</header>
+
+		<!--3 columns under header-->
+		<section class="features-columns bg-light text-center">
+      <div class="container-fluid iconContainer"> <!--Fluid container to span full width-->
+        <div class="row"> <!--New bootstrap row-->
+          <div class="col-lg-4"> <!--3 separate columns, each taking up 4 out of 12 spaces-->
+            <div class="features-columns-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-columns-icon d-flex">
+								<i class="fas fa-book m-auto text-primary"
+								onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+								</i>
+							</div>
+							<h3>One Stop Book Supply Shop</h3>
+              <p class="lead mb-0">Our goal is to provide you with a "one stop shop" for all your book buying and 
+								selling needs. We will find the right book for you, and take your old books off your hands, guaranteed!
+							</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-columns-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-columns-icon d-flex">
+                <i class="fas fa-search m-auto text-primary"
+										onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+								</i>
+              </div>
+              <h3>Search Using ISBN, Title, or Keyword</h3>
+              <p class="lead mb-0">There are millions of books you could be missing out on. Search
+								our entire database using ISBN, title, or keyword and find the book you've been missing out on all along!
+							</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-columns-item mx-auto mb-0 mb-lg-3">
+              <div class="features-columns-icon d-flex">
+								<i class="fas fa-dollar-sign m-auto text-primary"
+								onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+							</i>
+              </div>
+              <h3>Buy or Sell Books From the Comfort of Your Home</h3>
+              <p class="lead mb-0">Find the perfect book but not sure where to get it? No problem, 
+								 you can buy it right from our website! We will also buy your old, or new, books you no 
+								 longer want.
+							</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 		<!-- jumbotron for page showcase --
 			Had to change for background video
@@ -145,6 +196,7 @@
 		</footer>
 	</div>
 
+		<script src="index.js"></script>
 		<!---Bootstrap jquery, popper.js, bootstrap js - Taken from bootstrap website-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
