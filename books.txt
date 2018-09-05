@@ -1,5 +1,5 @@
 
-var books = [{
+[{
 		"title": "Eat Pray & Love",
 		"isbn": "001-00-00001",
 		"summary": "Some Random Summary We need to generate"
