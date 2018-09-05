@@ -37,11 +37,8 @@ var x = setInterval(function() {
 
 //Enlarge icon on mouseover then return to normal on mouseout
 function bigImg(x){
-    x.style.fontSize = "200px";
+    x.style.fontSize = "150px";
 }
 function normalImg(x){
-    x.style.fontSize = "100px";
+    x.style.fontSize = "70px";
 }
-=======
-}, 1000);
-
